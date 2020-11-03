@@ -252,7 +252,7 @@ const _query = {
         return query;
     },
     gasLogDelete: function(){
-        var query = `DELETE FROM sensor_log;`;
+        var query = `TRUNCATE TABLE sensor_log;`;
         return query;
     },
     receiverList: function(data){
